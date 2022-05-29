@@ -1,0 +1,97 @@
+.main-content {
+    height: 100%;
+    width: 70%;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    right: 0;
+    background-color: #00203fff;
+  }
+  
+  .bio {
+    margin-left: 50px;
+    height: 90%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+  }
+  
+  #image {
+    max-height: 325px;
+    max-width: 325px;
+    border-radius: 50%;
+    display: block;
+  }
+  
+  #title {
+    margin-left: 20px;
+    margin-top: 80x;
+  }
+  
+  h1 {
+    font-weight: 400;
+    font-family: "Montserrat";
+    font-size: 48px;
+    color: white;
+  }
+  
+  #tribute-info {
+    min-width: 50px;
+    max-width: 500px;
+    font-size: 15px;
+    margin-left: 20px;
+    margin-top: 80x;
+  }
+  
+  #img-caption {
+    min-width: 50px;
+    max-width: 500px;
+    font-size: 15px;
+    text-align: center;
+    color: white;
+  }
+  
+  #tribute-link {
+    display: block;
+    min-height: 50px;
+    min-width: 180px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #fff;
+    background: #e74c3c;
+    width: 50%;
+    text-align: center;
+    padding: 1rem 2rem;
+    margin-top: 1rem;
+    margin-left: 20px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    transition: all 0.2s;
+    box-sizing: border-box;
+  }
+  
+  .centered-element {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left: 50%;
+    margin-left: -50px;
+    top: 50%;
+    margin-top: -50px;
+  }
+  
+  
+  
+  .main-content-small {
+    height: 900px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    right: 0;
+    background-color: #00203fff;
+  }
